@@ -21,7 +21,7 @@
   <br/>
 </p>
 <p>
-  <strong>Dankasagung Fördergeber</strong>
+  <strong>Danksagung Fördergeber</strong>
 </p>
 <p>Diese Vorlagen wurdne im Rahmen des Projektes Bicycle Observatory – Am Puls des Radverkehrs entwickelt. Das Projekt wird im Rahmen des Programms „Mobilität der Zukunft“ vom österreichischen Bundesministeriums für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie (BMK) gefördert.</p>
 <p>Am Projekt wirken die folgenden Konsortialpartner mit: (1) Universität Salzburg, Interfakultärer Fachbereich für Geoinformatik – Z_GIS (Koordination), (2) Salzburg Research Forschungsgesellschaft mbH, (3) PRISMA solutions EDV-Dienstleistungen GmbH, (4) Helios.</p>
