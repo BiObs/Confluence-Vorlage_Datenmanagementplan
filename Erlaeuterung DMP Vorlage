@@ -1,0 +1,285 @@
+<h3 class="auto-cursor-target">Ergänzende Litertaur:</h3>
+<ul>
+  <li class="auto-cursor-target">Publikation zur Vorlage des Datenmanagementplan für räumliche Daten: <p>Leitinger, S., Wagner, A., &amp; Kremser, W. (2020). Erfahrungen bei der Umsetzung eines Datenmanagementplans für räumliche Daten des Radverkehrs. <em>AGIT ‒ Journal für Angewandte Geoinformatik, 6-2020</em>.</p>
+  </li>
+  <li class="auto-cursor-target">
+    <a href="https://www.ref.gv.at/fileadmin/user_upload/OGD-Metadaten_2-4_20170228.pdf">Cooperation OGD Österreich (2017), OGD Metadaten Österreich 2.4., White Paper </a>
+  </li>
+</ul>
+<h3 class="auto-cursor-target">Beschreibung der Spalten:</h3>
+<ul>
+  <li class="auto-cursor-target">
+    <strong>OGD-ID</strong>: ID aus dem OGD Metadaten 2.4</li>
+  <li class="auto-cursor-target">
+    <strong>Anforderungen an DMP</strong> (Details siehe oben genannte Publikation):<ul>
+      <li class="auto-cursor-target">Mini: Minmale Anforderungen</li>
+      <li class="auto-cursor-target">OGD MK: Pflichtfelder von OGD Metdaten 2.4</li>
+      <li class="auto-cursor-target">OGD Opt.: Optinale Felder von OGD Metadaten 2.4</li>
+      <li class="auto-cursor-target">Projektspez.: Projektspezifische Felder, die aufgrund von weiteren Quellen spezifiziert wurden</li>
+    </ul>
+  </li>
+</ul>
+<p>
+  <br/>
+</p>
+<p class="auto-cursor-target">
+  <br/>
+</p>
+<table class="relative-table wrapped" style="width: 94.7885%;">
+  <colgroup>
+    <col style="width: 3.75405%;"/>
+    <col style="width: 6.86839%;"/>
+    <col style="width: 24.0766%;"/>
+    <col style="width: 12.0388%;"/>
+    <col style="width: 53.2621%;"/>
+  </colgroup>
+  <tbody>
+    <tr>
+      <th style="text-align: center;">OGD-ID</th>
+      <th colspan="1">Anforderung an DMP</th>
+      <th style="text-align: center;">Bezeichner</th>
+      <th colspan="1" style="text-align: center;">OGD Metadaten 2.4 Kurzname</th>
+      <th colspan="1" style="text-align: center;">Beschreibung bzw. Verwendung im Projekt xxx</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <th colspan="1">OGD MK</th>
+      <th>Eindeutiger Identifikator</th>
+      <td colspan="1">metadata_identifier</td>
+      <td colspan="1">Angabe einer eindeutigen Identifikationsnummer für den Datensatz.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <th colspan="1">OGD MK</th>
+      <th>
+        <p>Datum des Metadatensatzes</p>
+      </th>
+      <td colspan="1">metadata_modified</td>
+      <td colspan="1">Datum, an dem der Metadatensatz erzeugt bzw. aktualisiert wurde; Format YYYY-MM-DD;</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <th colspan="1">Mini</th>
+      <th>Titel</th>
+      <td colspan="1">title</td>
+      <td colspan="1">Titel des beschriebenen Datensatzes</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <th colspan="1">OGD MK</th>
+      <th>Beschreibung</th>
+      <td colspan="1">description</td>
+      <td colspan="1">Inhaltliche Beschreibung des Datensatzes</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <th colspan="1">OGD MK</th>
+      <th>Kategorie</th>
+      <td colspan="1">categorization</td>
+      <td colspan="1">Auswahl einer vorgegebenen Kategorie nach dem OGD Metadaten 2.4 Anhang 9c</td>
+    </tr>
+    <tr>
+      <td colspan="1">11</td>
+      <th colspan="1">OGD MK</th>
+      <th colspan="1">Schlagworte</th>
+      <td colspan="1">keywords</td>
+      <td colspan="1">Frei definierbare Schlagworte, von Projekt abhängig</td>
+    </tr>
+    <tr>
+      <td colspan="1">12</td>
+      <th colspan="1">Mini</th>
+      <th colspan="1">Attributbeschreibung</th>
+      <td colspan="1">attribute_description</td>
+      <td colspan="1">Angabe wie Attributbeschreibung vorliegt: <ul>
+          <li>
+            <span>Standardisierter Metadatensatz (z.B. OGC konforme Servicebeschreibung)</span>
+          </li>
+          <li>
+            <span>Maschinenlesbare Datenbeschreibung (z.B. XSD Schema)</span>
+          </li>
+          <li>
+            <span>Strukturierte Datenbeschreibung (z.B. JSON File + Spaltenbeschreibung, Header Beschreibung eines CSV Files)</span>
+          </li>
+          <li>
+            <span>Textuelle Datenbeschreibung (z.B. Dokument)</span>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">6</td>
+      <th colspan="1">OGD Opt.</th>
+      <th colspan="1">Weiterführende Metadaten (Link, Dokument)</th>
+      <td colspan="1">metadata_linkage_name</td>
+      <td colspan="1">Weiterführende Information zum Metadatensatzes, Verweis auf Website bzw. Dokument (Dokument kann auch direkt in Confluence eingefügt werden)</td>
+    </tr>
+    <tr>
+      <td colspan="1">19 + 13 + 34</td>
+      <th colspan="1">
+        <p>Mini + Mini + Mini</p>
+      </th>
+      <th colspan="1">Datenverantwortliche Stelle + Kontaktseite + E-Mailkontakt</th>
+      <td colspan="1">maintainer + maintainer_link + maintainer_email</td>
+      <td colspan="1">
+        <p>Angabe der datenverantwortlichen Stelle, nach Möglichkeit auch Angabe einer Ansprechperson (Email, Kontaktseite)</p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">21 + 38</td>
+      <th colspan="1">Mini + OGD Opt</th>
+      <th colspan="1">Lizenz + Link zur Lizenz</th>
+      <td colspan="1">license + license_url</td>
+      <td colspan="1">Angabe der Lizenz oder Nutzungsbedingungen; bei Open Data Lizenzen auch Angabe des Links zur beschreibenden Website;</td>
+    </tr>
+    <tr>
+      <td colspan="1">30</td>
+      <th colspan="1">OGD Opt.</th>
+      <th colspan="1">Lizenz Zitat</th>
+      <td colspan="1">license_citation</td>
+      <td colspan="1">Wenn in Lizenz, Nutzungsvertrag vorgegeben, dann Angabe wie bei Verwendung des Datensatzes auf diesen zu Verweisen ist;</td>
+    </tr>
+    <tr>
+      <td colspan="1">
+        <p>39</p>
+      </td>
+      <th colspan="1">OGD Opt.</th>
+      <th colspan="1">Link zu den Nutzungsbedingungen</th>
+      <td colspan="1">terms_url</td>
+      <td colspan="1">Weiterführende Information zu Nutzungsbedingungen, Verweis auf Nutzunsgverträge (Vertrag kann auch direkt als Dokument in die Tabelle eingefügt werden)</td>
+    </tr>
+    <tr>
+      <td colspan="1">
+        <p>27</p>
+      </td>
+      <th colspan="1">Mini</th>
+      <th colspan="1">Datenqualität/Herkunft</th>
+      <td colspan="1">lineage_quality</td>
+      <td colspan="1">Wenn bekannt Angaben zur Herkunft der Daten und Datenqualität/Qualitätssicherung</td>
+    </tr>
+    <tr>
+      <td colspan="1">24</td>
+      <th colspan="1">Mini</th>
+      <th colspan="1">Zeitliche Ausdehnung (Anfang)</th>
+      <td colspan="1">begin_datetime</td>
+      <td colspan="1">YYYY-MM-DD</td>
+    </tr>
+    <tr>
+      <td colspan="1">25</td>
+      <th colspan="1">Mini</th>
+      <th colspan="1">Zeitliche Ausdehnung (Ende)</th>
+      <td colspan="1">end_datetime</td>
+      <td colspan="1">YYYY-MM-DD; Wenn Ende Datensatz nicht bekannt, wird dieser standardmäßig auf das Projektende gesetzt;</td>
+    </tr>
+    <tr>
+      <td colspan="1">14</td>
+      <th colspan="1">Mini</th>
+      <th colspan="1">Datensatz, Dienst oder Dokument Link</th>
+      <td colspan="1">resource_url</td>
+      <td colspan="1">Angabe des Speicherorte; Muss nicht zwingend ein Link sein, kann auch ein lokaler Speicherort oder Speicherort in Datenbank sein;</td>
+    </tr>
+    <tr>
+      <td colspan="1">15</td>
+      <th colspan="1">OGD MK</th>
+      <th colspan="1">Datensatz, Dienst oder Dokument Format</th>
+      <td colspan="1">resource_format</td>
+      <td colspan="1">Format wie die Daten gespeichert sind, z.B. gpx, csv, WMS - PNG, WFS - JSON, etc.</td>
+    </tr>
+    <tr>
+      <td colspan="1">18</td>
+      <th colspan="1">OGD Opt.</th>
+      <th colspan="1">Datensatz, Dienst oder Dokument Änderungsdatum</th>
+      <td colspan="1">resource_lastmodified</td>
+      <td colspan="1">Angabe wann der Datensatz das letzte Mal geändert wurde bzw. ein Update durchgeführt wurde</td>
+    </tr>
+    <tr>
+      <td colspan="1">26</td>
+      <th colspan="1">OGD Opt.</th>
+      <th colspan="1">Aktualisierungszyklus</th>
+      <td colspan="1">update_frequency</td>
+      <td colspan="1">Angabe Aktualisierungszyklus</td>
+    </tr>
+    <tr>
+      <td colspan="1">22 + 23</td>
+      <th colspan="1">OGD Opt.</th>
+      <th colspan="1">Geographische Abdeckung/Lage + Geographische Ausdehnung</th>
+      <td colspan="1">geographic_toponym + geographic_bbox</td>
+      <td colspan="1">Angabe der geographischen Lage bzw. Abdeckung; In vielen Fällen ist dies eine Verwaltungseinheit; Wenn dies nicht klar ist, kann als Alternative eine Bounding Box im Koordinatenformat WGS84 angegeben werden;</td>
+    </tr>
+    <tr>
+      <td colspan="1">20 + 35 + 36</td>
+      <th colspan="1">OGD MK + OGD Opt. + OGD Opt.</th>
+      <th colspan="1">Veröffentlichende Stelle + Kontaktseite + E-Mailkontakt</th>
+      <td colspan="1">publisher + publisher_link + publisher_email</td>
+      <td colspan="1">Angabe der veröffentlichenden Stelle; Diese kann anders sein als die datenverantwortliche Stelle; Nach Möglichkeit auch Angabe einer Ansprechperson (Email, Kontaktseite);</td>
+    </tr>
+    <tr>
+      <td colspan="1">
+        <br/>
+      </td>
+      <th colspan="1">Projektspez.</th>
+      <th colspan="1">Datenart</th>
+      <td colspan="1">
+        <br/>
+      </td>
+      <td colspan="1">
+        <p>Angabe welcher Art die Daten sind: Folgende Arten wurden vorerst definiert:</p>
+        <ul>
+          <li>Rohdaten</li>
+          <li>Bereitgestellte Daten: Es liegen keine genauen Angaben zu einer möglichen Vorprozessierung von Rohdaten seitens des Drittanbieters vor. Es muss damit gerechnet werden, dass es keine Rohdaten an sich mehr sind.</li>
+          <li>Abgeleitete Daten: Datensatz der im Rahmen des Projekstes aus Rohdaten und/oder bereitgestellten Daten erzeugt wurde.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">
+        <br/>
+      </td>
+      <th colspan="1">Projektspez.</th>
+      <th colspan="1">Datengrundlage</th>
+      <td colspan="1">
+        <br/>
+      </td>
+      <td colspan="1">Ist nur bei der Datenart "abgeleitete Daten" auszufüllen. Hier wird angegeben welche Eingangsdaten, die auch im DMP erfasst wurden, diesem Datensatz zugrundeliegen. Idealerweise Verlinkung auf die entsprechenden Datensätze bzw. zumindest Angabe der „Identifikationsnummer“ und „Titel des Datensatzes“.</td>
+    </tr>
+    <tr>
+      <td colspan="1">
+        <br/>
+      </td>
+      <th colspan="1">Projektspez.</th>
+      <th colspan="1">Maßnahmen bei personenbezogenen Daten / Anonymisierung von personenbezogenen Daten</th>
+      <td colspan="1">
+        <br/>
+      </td>
+      <td colspan="1">
+        <p>Bei Verwendung von <strong>personenbezogenen Daten</strong>: Beschreibung der Maßnahmen für einen verantwortungsvollen Umgang der Daten;</p>
+        <p>Wenn der <strong>Personenbezug</strong> bei der Datenverarbeitung <strong>vermieden</strong> werden kann soll für die Dokumentation und möglichen späteren Auskunft, soweit bekannt, die <strong>Anonymisierung</strong> dokumentiert werden.</p>
+        <p>Wenn <strong>Daten ohne jeglichen Personenbezug</strong> Vorliegen, dann Angabe "keine personenbezogenen Daten".</p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">
+        <br/>
+      </td>
+      <th colspan="1">Projektspez.</th>
+      <th colspan="1">Verantwortlicher Projektpartner</th>
+      <td colspan="1">
+        <br/>
+      </td>
+      <td colspan="1">Hauptverantwortlicher Projektpartner für den Datensatz</td>
+    </tr>
+    <tr>
+      <td colspan="1">
+        <br/>
+      </td>
+      <th colspan="1">Projektspez.</th>
+      <th colspan="1">Nutzen und Zweck im Projekt</th>
+      <td colspan="1">
+        <br/>
+      </td>
+      <td colspan="1">Angabe des Nutzen und Zwecks des Datensatzes für das gegenständliche Projekt</td>
+    </tr>
+  </tbody>
+</table>
+<p class="auto-cursor-target">
+  <br/>
+</p>
