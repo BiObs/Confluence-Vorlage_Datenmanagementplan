@@ -1,0 +1,206 @@
+<p>
+  <br/>
+</p>
+<p>
+  <strong>Bitte zitieren als: Leitinger, S., Wagner, A., &amp; Kremser, W. (2020). Erfahrungen bei der Umsetzung eines Datenmanagementplans für räumliche Daten des Radverkehrs. <em>AGIT ‒ Journal für Angewandte Geoinformatik, 6-2020</em>.</strong>
+</p>
+<p>
+  <br/>
+</p>
+<table class="relative-table wrapped" style="width: 100.0%;">
+  <colgroup>
+    <col style="width: 23.4864%;"/>
+    <col style="width: 76.5717%;"/>
+  </colgroup>
+  <tbody>
+    <tr>
+      <th style="text-align: center;">Bezeichner</th>
+      <th colspan="1" style="text-align: center;">Einträge</th>
+    </tr>
+    <tr>
+      <th>Eindeutiger Identifikator</th>
+      <td colspan="1">
+        <ac:placeholder>Angabe einer eindeutigen Identifikationsnummer für den Datensatz. </ac:placeholder>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        <p>Datum des Metadatensatzes</p>
+      </th>
+      <td colspan="1">
+        <p>
+          <ac:placeholder>Datum, an dem der Metadatensatz erzeugt bzw. aktualisiert wurde, Format YYYY-MM-DD</ac:placeholder>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <th>Titel</th>
+      <td colspan="1">
+        <ac:placeholder>Titel des beschriebenen Datensatzes</ac:placeholder>
+      </td>
+    </tr>
+    <tr>
+      <th>Beschreibung</th>
+      <td colspan="1">
+        <p>
+          <ac:placeholder>Inhaltliche Beschreibung des Datensatzes, Dienstes oder Dokuments</ac:placeholder>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <th>Kategorie</th>
+      <td colspan="1">
+        <ac:placeholder>Auswahl einer vorgegebenen Kategorie nach dem OGD Metadaten 2.4 Anhang 9c</ac:placeholder>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Schlagworte</th>
+      <td colspan="1">
+        <p>
+          <ac:placeholder>Frei definierbare Schlagworte, von Projekt abhängig</ac:placeholder>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Attributbeschreibung</th>
+      <td colspan="1">
+        <ac:placeholder>Angabe wie Attributbeschreibung vorliegt -  </ac:placeholder>
+        <ac:placeholder>siehe Erläuterungen </ac:placeholder>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Weiterführende Metadaten - Link</th>
+      <td colspan="1">
+        <ac:placeholder>Weiterführende Information zum Metadatensatzes, Verweis auf Website bzw. Dokument (Dokument kann auch direkt hier eingefügt werden) </ac:placeholder>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Datenverantwortliche Stelle</th>
+      <td colspan="1">
+        <ac:placeholder>Angabe der datenverantwortlichen Stelle, nach Möglichkeit auch Angabe einer Ansprechperson (Email, Kontaktseite) </ac:placeholder>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Lizenz</th>
+      <td colspan="1">
+        <ac:placeholder>Angabe der Lizenz oder Nutzungsbedingungen, bei Open Data Lizenzen auch Angabe des Links zur beschreibenden Website  </ac:placeholder>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Lizenz Zitat</th>
+      <td colspan="1">
+        <ac:placeholder>Wenn in Lizenz, Nutzungsvertrag vorgegeben, dann Angabe wie bei Verwendung des Datensatzes auf diesen zu Verweisen ist</ac:placeholder>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Link zu den Nutzungsbedingungen</th>
+      <td colspan="1">
+        <p>
+          <ac:placeholder>Weiterführende Information zu Nutzungsbedingungen, Verweis auf Nutzunsgverträge (Vertrag kann auch direkt als Dokument eingefügt werden)  </ac:placeholder>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Datenqualität/Herkunft</th>
+      <td colspan="1">
+        <ac:placeholder>Wenn bekannt Angaben zur Herkunft der Daten und Datenqualität/Qualitätssicherung  </ac:placeholder>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Zeitliche Ausdehnung (Anfang)</th>
+      <td colspan="1">
+        <ac:placeholder>YYYY-MM-DD </ac:placeholder>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Zeitliche Ausdehnung (Ende)</th>
+      <td colspan="1">
+        <ac:placeholder>YYYY-MM-DD - wenn Ende Datensatz nicht bekannt, wird dieser standardmäßig auf das Projektende gesetzt </ac:placeholder>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Datensatz, Dienst oder Dokument Link</th>
+      <td colspan="1">
+        <p>
+          <ac:placeholder>Angabe des Speicherortes; muss nicht zwingend ein Link sein, kann auch ein lokaler Speicherort oder Speicherort in Datenbank sein;  </ac:placeholder>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Datensatz, Dienst oder Dokument Format</th>
+      <td colspan="1">
+        <ac:placeholder>Format wie die Daten gespeichert sind, z.B. gpx, csv, WMS - PNG, WFS - JSON, etc.  </ac:placeholder>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Datensatz, Dienst oder Dokument Änderungsdatum</th>
+      <td colspan="1">
+        <ac:placeholder>Angabe wann der Datensatz das letzte Mal geändert wurde bzw. ein Update durchgeführt wurde </ac:placeholder>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Aktualisierungszyklus</th>
+      <td colspan="1">
+        <ac:placeholder>Angabe Aktualisierungszyklus</ac:placeholder>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Geographische Abdeckung/Lage + Ausdehung</th>
+      <td colspan="1">
+        <ac:placeholder>Angabe der geographischen Lage bzw. Abdeckung. In vielen Fällen ist dies eine Verwaltungseinheit. Wenn dies nicht klar ist, kann als Alternative eine Bounding Box (WGS84) angegeben werden.</ac:placeholder>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Veröffentlichende Stelle</th>
+      <td colspan="1">
+        <ac:placeholder>Angabe der veröffentlichenden Stelle; diese kann anders sein als die datenverantwortliche Stelle; nach Möglichkeit auch Angabe einer Ansprechperson (Email, Kontaktseite);</ac:placeholder>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Datenart</th>
+      <td colspan="1">
+        <ac:placeholder>Angabe ob es sich um Rohdaten, abgeleitete Daten oder bereitgestellte Daten handelt (Details siehe Erläuterungen); </ac:placeholder>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Datengrundlage</th>
+      <td colspan="1">
+        <ac:placeholder>Ist nur bei der Datenart "abgeleitete Daten" auszufüllen, hier wird angegeben welche Eingangsdaten, die auch im DMP erfasst wurden, diesem Datensatz zugrundeliegen. Idealerweise Verlinkung auf die entsprechenden Datensätze bzw. zumindest Angabe der „Identifikationsnummer“ und „Titel des Datensatzes“. </ac:placeholder>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Maßnahmen personenbezogene Daten / Anonymisierung</th>
+      <td colspan="1">
+        <p>
+          <ac:placeholder> Bei Verwendung von personenbezogenen Daten: Beschreibung der Maßnahmen für einen verantwortungsvollen Umgang der Daten.  </ac:placeholder>
+        </p>
+        <p>
+          <ac:placeholder>Wenn der Personenbezug bei der Datenverarbeitung vermieden werden kann soll für die Dokumentation und möglichen späteren Auskunft das Anonymisierungsverfahren dokumentiert werden. </ac:placeholder>
+        </p>
+        <p>
+          <ac:placeholder>Wenn Daten ohne personenbezug vorliegen (z.B. Wetter) dann Angabe "keine personenbezogenen Daten". </ac:placeholder>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Verantwortlicher Projektpartner</th>
+      <td colspan="1">
+        <ac:placeholder>Hauptverantwortlicher Projektpartner für den Datensatz </ac:placeholder>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Nutzen und Zweck im Projekt</th>
+      <td colspan="1">
+        <ac:placeholder>Angabe des Nutzen und Zwecks des Datensatzes für das gegenständliche Projekt </ac:placeholder>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">
+        <br/>
+      </th>
+      <td colspan="1">
+        <br/>
+      </td>
+    </tr>
+  </tbody>
+</table>
