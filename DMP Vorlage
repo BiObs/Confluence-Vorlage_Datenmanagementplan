@@ -83,21 +83,33 @@
     <tr>
       <th colspan="1">Lizenz</th>
       <td colspan="1">
-        <ac:placeholder>Angabe der Lizenz oder Nutzungsbedingungen, bei Open Data Lizenzen auch Angabe des Links zur beschreibenden Website  </ac:placeholder>
-      </td>
-    </tr>
-    <tr>
-      <th colspan="1">Lizenz Zitat</th>
-      <td colspan="1">
-        <ac:placeholder>Wenn in Lizenz, Nutzungsvertrag vorgegeben, dann Angabe wie bei Verwendung des Datensatzes auf diesen zu Verweisen ist</ac:placeholder>
+        <ac:placeholder>Angabe ob Datensatz unter einer "geschlossenen Lizenz" (proberitären) oder unter einer "offenen Lizenz" (freien/open) zur Verfügung gestellt wird. </ac:placeholder>
       </td>
     </tr>
     <tr>
       <th colspan="1">Link zu den Nutzungsbedingungen</th>
       <td colspan="1">
         <p>
-          <ac:placeholder>Weiterführende Information zu Nutzungsbedingungen, Verweis auf Nutzunsgverträge (Vertrag kann auch direkt als Dokument eingefügt werden)  </ac:placeholder>
+          <ac:placeholder>Kurze textliche Dokumentation zu den Nutzungsbedingungen. Grundsätzlich kann zwischen folgenden Nutzungsbedingungen unterschieden werden:</ac:placeholder>
         </p>
+        <p>
+          <ac:placeholder>Nutzung nur innerhalb des spezifischen Projektes erlaubt + kurze textliche Dokumentation </ac:placeholder>
+        </p>
+        <p>
+          <ac:placeholder>Nutzung für mehrere Forschungsprojekte erlaubt + kurze textliche Dokumentation </ac:placeholder>
+        </p>
+        <p>
+          <ac:placeholder>Offene Lizenz + kurze textliche Dokumentation + Link Website zur Lizenz </ac:placeholder>
+        </p>
+        <p>
+          <ac:placeholder>Als weiterführende Information kann auch noch der Nutzungsvertrag eingefügt werden (v.a. bei geschlossenen Lizenzen relevant).  </ac:placeholder>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="1">Lizenz Zitat</th>
+      <td colspan="1">
+        <ac:placeholder>Wenn in Lizenz- bzw. Nutzungsvertrag angegeben, dann hier Angabe wie bei Verwendung des Datensatzes auf diesen zu Verweisen ist;</ac:placeholder>
       </td>
     </tr>
     <tr>
