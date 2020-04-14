@@ -111,7 +111,7 @@
       <th colspan="1">OGD Opt.</th>
       <th colspan="1">Weiterführende Metadaten (Link, Dokument)</th>
       <td colspan="1">metadata_linkage_name</td>
-      <td colspan="1">Weiterführende Information zum Metadatensatzes, Verweis auf Website bzw. Dokument (Dokument kann auch direkt in Confluence eingefügt werden)</td>
+      <td colspan="1">Weiterführende Information zum Metadatensatzes, Verweis auf Website bzw. Dokument (Dokument kann auch direkt in Confluence eingefügt werden). Alternativ kann auch hier eine textuelle Attributbeschreibung eingefügt werden (z.B. dann sinnvoll, wenn kein weiterführendes Dokument vorhanden ist oder eine einheitliche Attributbeschreibung im Projekt gewünscht wird).</td>
     </tr>
     <tr>
       <td colspan="1">19 + 13 + 34</td>
@@ -125,27 +125,39 @@
       </td>
     </tr>
     <tr>
-      <td colspan="1">21 + 38</td>
-      <th colspan="1">Mini + OGD Opt</th>
-      <th colspan="1">Lizenz + Link zur Lizenz</th>
-      <td colspan="1">license + license_url</td>
-      <td colspan="1">Angabe der Lizenz oder Nutzungsbedingungen; bei Open Data Lizenzen auch Angabe des Links zur beschreibenden Website;</td>
+      <td colspan="1">21</td>
+      <th colspan="1">Mini</th>
+      <th colspan="1">Lizenz</th>
+      <td colspan="1">license</td>
+      <td colspan="1">
+        <p>Angabe ob Datensatz unter einer "geschlossenen Lizenz" (proberitären) oder unter einer "offenen Lizenz" (freien/open) zur Verfügung gestellt wird.</p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">
+        <p>39 + 38</p>
+      </td>
+      <th colspan="1">OGD Opt.</th>
+      <th colspan="1">Link zu den Nutzungsbedingungen</th>
+      <td colspan="1">terms_url + license_url</td>
+      <td colspan="1">
+        <p>Wird nicht als reiner Link verstanden sondern es soll für eine schnelle Übersicht über die Nutzungsbedingungen eine kurze textliche Dokumentation zu den Nutzungsbedingungen erfolgen.</p>
+        <p>Grundsätzlich kann zwischen folgenden Nutzungsarten unterschieden werden:</p>
+        <ul>
+          <li>"Nutzung nur innerhalb des spezifischen Projektes erlaubt" + kurze textliche Dokumentation der Nutzungsbedingungen + Dokumentation weitere spezifische Bedingungen (Geschlossene Lizenz)</li>
+          <li>"Nutzung für mehrere Forschungsprojekte erlaubt" + kurze textliche Dokumentation der Nutzungsbedingungen (Geschlossene Lizenz)</li>
+          <li>"Offene Lizenz" + kurze textliche Dokumentation der Nutzungsbedingungen gemäß der offenen Lizenz + zusätzlicher Link zur beschreibenden Website</li>
+        </ul>
+        <p>Als weiterführende Information kann auch noch der Nutzungsvertrag eingefügt werden (v.a. bei geschlossenen Lizenzen relevant).</p>
+        <p>Bei abgeleiteten Daten die aus mehreren verschiedenen Datenquellen bestehen sind dann vom Datensatz mit den restriktivsten Lizenzen die entsprechenden Nutzungsbedingungen zu übernehmen. </p>
+      </td>
     </tr>
     <tr>
       <td colspan="1">30</td>
       <th colspan="1">OGD Opt.</th>
       <th colspan="1">Lizenz Zitat</th>
       <td colspan="1">license_citation</td>
-      <td colspan="1">Wenn in Lizenz, Nutzungsvertrag vorgegeben, dann Angabe wie bei Verwendung des Datensatzes auf diesen zu Verweisen ist;</td>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <p>39</p>
-      </td>
-      <th colspan="1">OGD Opt.</th>
-      <th colspan="1">Link zu den Nutzungsbedingungen</th>
-      <td colspan="1">terms_url</td>
-      <td colspan="1">Weiterführende Information zu Nutzungsbedingungen, Verweis auf Nutzunsgverträge (Vertrag kann auch direkt als Dokument in die Tabelle eingefügt werden)</td>
+      <td colspan="1">Wenn in Lizenz- bzw. Nutzungsvertrag angegeben, dann hier Angabe wie bei Verwendung des Datensatzes auf diesen zu Verweisen ist;</td>
     </tr>
     <tr>
       <td colspan="1">
@@ -283,3 +295,4 @@
 <p class="auto-cursor-target">
   <br/>
 </p>
+
