@@ -1,4 +1,4 @@
-# DMP_spatial_data
+# Confluence-Vorlage Datenmanagementplan
 <p>
   <strong>Inhaltsbeschreibung</strong>
 </p>
